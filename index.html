@@ -3,8 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Thomas Doherty | Digital CV</title>
+  <title>Thomas Doherty | Software Developer & Flex IT Owner</title>
   <link rel="stylesheet" href="style.css" />
+<meta name="description" content="Thomas Doherty, software developer and Flex IT owner in Dracut, Massachusetts. Explore web projects, JavaScript skills, and professional experience." />
+<style>
+:root{--accent:#76e2b8;--bg:#101a20;--text:#edf4f3;--max-width:1040px}
+html,body{height:auto;min-height:100%;overflow-x:clip}body{display:block;background-image:linear-gradient(145deg,#101a20,#12352e);padding:24px;line-height:1.7}a{color:var(--accent);text-underline-offset:4px}a:hover{color:#fff}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #fff;outline-offset:4px}.page-wrap{padding:0}.container,.resume-content{display:grid;gap:24px}.card{background:#15262b;border:1px solid #365149;box-shadow:0 12px 30px #0002;padding:32px}.card:hover{transform:none;box-shadow:0 12px 30px #0002}.site-header{padding:40px 32px}.site-header h1{font-size:clamp(2.2rem,5vw,3.3rem);letter-spacing:-.04em}.site-header img{width:112px;height:112px;border:2px solid var(--accent);border-radius:50%;box-shadow:none}.site-header figcaption{color:#b6cdc6;margin-bottom:8px}h2{font-size:1.65rem;line-height:1.3;margin-bottom:16px}h3{font-size:1.12rem;margin-bottom:6px}p+p{margin-top:12px}ul{padding-left:22px}li+li{margin-top:8px}.quick-links{margin-top:24px;border-top:1px solid #365149;padding-top:20px}.quick-links h2{font-size:.9rem;color:#b6cdc6}.quick-links ul{padding:0;display:flex;flex-wrap:wrap;gap:10px 20px;justify-content:center;list-style:none}.quick-links li+li{margin:0}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.75rem;color:#b6cdc6;margin-bottom:10px}.featured-project{border-color:var(--accent);background:#173b32}.featured-project ul{margin:18px 0}.primary-link{display:inline-block;padding:12px 20px;background:var(--accent);color:#10271f;font-weight:700;border-radius:8px;text-decoration:none}.primary-link:hover{background:#a4f4d5;color:#10271f}article+article{border-top:1px solid #365149;padding-top:24px;margin-top:24px}.role{font-weight:600}.dates{color:#b6cdc6;font-size:.9rem;margin:4px 0 12px!important}.projects-education-wrap{display:grid;gap:24px}#projects-list{margin-top:18px}.project-item{padding:12px 0}.project-desc{color:#bfd2cc;font-size:.94rem}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}.field{display:flex;flex-direction:column-reverse;gap:6px}.field.textarea,.group{grid-column:1/-1}.field input,.field textarea{width:100%;padding:12px;background:#0f1d22;color:var(--text);border:1px solid #638179;border-radius:6px;font:inherit}.group{padding:16px;border:1px solid #638179;border-radius:6px}.group label{display:inline-block;margin-right:16px}.neon-button{padding:12px 22px;background:var(--accent);color:#10271f;border:0;border-radius:6px;font:inherit;font-weight:700;cursor:pointer}.form-note{color:#b6cdc6;margin-top:10px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}footer{text-align:center}.contact{overflow-wrap:anywhere}
+@media(max-width:720px){body{padding:14px}.page-wrap{padding:0}.card,.site-header{padding:24px 20px}h2,h3{text-align:left}.site-header h1{text-align:center}.form-grid{grid-template-columns:1fr}.primary-link{overflow-wrap:anywhere;max-width:100%}.quick-links ul{gap:10px 16px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{body{background:white;color:#111;padding:0}.card{background:white!important;box-shadow:none;border-color:#ccc;break-inside:avoid;color:#111}h1,h2,h3,a,.dates,.role,.eyebrow{color:#111!important}.social-links,.quick-links,#contact{display:none}.primary-link{background:none;padding:0}.site-header img{width:80px;height:80px}}
+</style>
 </head>
 
 <body>
@@ -19,7 +27,7 @@
             width="170"
             height="170"
           />
-          <figcaption>Software Engineer I • JavaScript, APIs & Automation</figcaption>
+          <figcaption>Software Developer • JavaScript, APIs & Web Development</figcaption>
         </figure>
 
         <h1 id="profile-name">Thomas Doherty</h1>
@@ -69,9 +77,9 @@
         <nav class="quick-links" aria-label="Quick links">
           <h2>Quick Links</h2>
           <ul>
-            <li><a href="#objective">Objective</a></li>
+            <li><a href="#objective">About</a></li>
             <li><a href="#technical-skills">Technical Skills</a></li>
-            <li><a href="#skills-table">Skills Table</a></li>
+            <li><a href="#featured-project">Featured Website</a></li>
             <li><a href="#experience">Professional Experience</a></li>
             <li><a href="#projects">Software Projects</a></li>
             <li><a href="#education">Education</a></li>
@@ -82,14 +90,9 @@
       </header>
 
       <!-- MAIN CONTENT -->
-      <main aria-label="Resume content">
+      <div class="resume-content" aria-label="Resume content">
         <!-- OBJECTIVE -->
-        <section id="objective" class="card reveal" aria-labelledby="objective-title">
-          <h2 id="objective-title">Objective</h2>
-          <p>
-            Software Engineer I with a background in robotics and full‑stack development, focused on building reliable, efficient systems and solving real‑world problems through code
-          </p>
-        </section>
+        <section id="objective" class="card" aria-labelledby="objective-title"><p class="eyebrow">Open to junior software engineering opportunities</p><h2 id="objective-title">Building practical solutions with code</h2><p>I’m a Springboard full stack web development graduate and the owner of Flex IT. I build websites with JavaScript, HTML, and CSS, connect services through APIs, and bring hands-on troubleshooting experience from robotics floor support and construction.</p><p>I’m looking for a junior software engineering role where I can contribute, learn through code reviews, and grow with an experienced team.</p></section><section id="featured-project" class="card featured-project" aria-labelledby="featured-title"><p class="eyebrow">Featured project · Flex IT</p><h2 id="featured-title">Flex Integration Tech</h2><p>A business website for my website development and technology support services, built with HTML, CSS, JavaScript, and EmailJS.</p><ul><li>Contact form with input validation and clear submission feedback.</li><li>Safeguards against repeat submissions and message preservation after failed sends.</li><li>Accessible form status updates and service information for homes and small businesses.</li></ul><a class="primary-link" href="https://flexintegrationtech.com" target="_blank" rel="noopener noreferrer">Visit flexintegrationtech.com ↗</a></section>
 
         <!-- TECHNICAL SKILLS -->
         <section id="technical-skills" class="card reveal" aria-labelledby="skills-title">
@@ -105,83 +108,10 @@
         </section>
 
         <!-- SKILLS SUMMARY TABLE -->
-        <section id="skills-table" class="card reveal" aria-labelledby="table-title">
-  <h2 id="table-title">Skills Summary</h2>
-
-  <div class="table-wrap" role="region" aria-label="Skills summary table">
-    <table>
-      <thead>
-        <tr>
-          <th scope="col">Category</th>
-          <th scope="col">Skills</th>
-          <th scope="col">Level</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>Programming</td>
-          <td>HTML, CSS, JavaScript, Asynchronous JavaScript, Responsive UI</td>
-          <td>Junior</td>
-        </tr>
-
-        <tr>
-          <td>Backend Development</td>
-          <td>Node.js, Express, REST API Design, API Integration</td>
-          <td>Junior</td>
-        </tr>
-
-        <tr>
-          <td>Databases</td>
-          <td>SQL, MongoDB, Query Optimization Fundamentals</td>
-          <td>Fundamental</td>
-        </tr>
-
-        <tr>
-          <td>Tools</td>
-          <td>Git, GitHub, Branching Workflows, Pull Requests, Debugging</td>
-          <td>Proficient</td>
-        </tr>
-
-        <tr>
-          <td>Mechanical / Technical</td>
-          <td>Robotics Diagnostics, Systems Troubleshooting, Technical Documentation</td>
-          <td>Advanced</td>
-        </tr>
-
-        <tr>
-          <td>Professional</td>
-          <td>Clear Communication, Team Collaboration, Reliability & Safety Mindset</td>
-          <td>Advanced</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</section>
+        
 
         <!-- EXPERIENCE -->
-        <section id="experience" class="card reveal" aria-labelledby="experience-title">
-          <h2 id="experience-title">Professional Experience</h2>
-
-          <article aria-labelledby="amazon-role">
-            <h3 id="amazon-role">Amazon (BOS3) — Robotics Technician</h3>
-            <p><strong>July 2025 – Present</strong></p>
-            <ul>
-              <li>Recovered and serviced drive units from active robotics fields.</li>
-              <li>Worked with Amazon Robotics automation systems.</li>
-              <li>Supported maintenance teams with troubleshooting and diagnostics.</li>
-              <li>Maintained strong safety awareness in active work zones.</li>
-            </ul>
-          </article>
-
-          <!-- move additional experience into the same card as professional experience -->
-          <div id="additional-experience">
-            <h3 id="additional-experience-title">Additional Experience</h3>
-            <ul>
-              <li>(2015–2025) — Millwork, Carpentry, and Construction, roles across residential and commercial projects.</li>
-            </ul>
-          </div>
-        </section>
+        <section id="experience" class="card" aria-labelledby="experience-title"><h2 id="experience-title">Professional Experience</h2><article><h3>Flex IT</h3><p class="role">Owner / Web Developer &amp; IT Support</p><p class="dates">September 2026 – Present</p><ul><li>Develop and maintain <a href="https://flexintegrationtech.com">flexintegrationtech.com</a> using HTML, CSS, JavaScript, and an EmailJS contact form.</li><li>Offer website development and technology support for homes and small businesses.</li></ul></article><article><h3>Amazon BOS3</h3><p class="role">Amnesty Floor Monitor (Robotics Floor Support)</p><p class="dates">July 2025 – Present</p><ul><li>Troubleshoot robotic drive issues using physical interventions and remote commands through a Kindle-based interface.</li><li>Resolve routine drive issues and escalate problems requiring advanced diagnostics or repairs to the contracted engineering team.</li></ul></article><article><h3>Thomas Doherty LLC</h3><p class="role">Construction and Building</p><p class="dates">November 2008 – July 2025</p><ul><li>Performed residential construction, installations, repairs, and maintenance; resolved practical building and mechanical issues.</li><li>Coordinated project scheduling, client communication, and work documentation for independent contracting projects.</li></ul></article><article><h3>Northland Installation Corporation</h3><p class="role">Commercial Millwork and Cabinetry Installation · Amesbury, MA</p><p class="dates">October 2022 – November 2024</p><ul><li>Interpreted blueprints, installed commercial millwork, and resolved fitment and alignment problems.</li></ul></article></section>
 
         <!-- PROJECTS + EDUCATION -->
         <div class="projects-education-wrap">
@@ -194,130 +124,11 @@
             </ul>
           </section>
 
-          <section id="education" class="card reveal" aria-labelledby="education-title">
-            <h2 id="education-title">Education</h2>
-            <p><strong>Full Stack Web Development Bootcamp</strong></p>
-            <p>Training in full stack web development fundamentals.</p>
-          </section>
+          <section id="education" class="card" aria-labelledby="education-title"><h2 id="education-title">Education</h2><h3>Springboard</h3><p>Online Full Stack Web Development Bootcamp</p><p class="dates">Certificate earned July 19, 2026</p><p>Training in JavaScript, backend development fundamentals, and API integration.</p></section>
         </div>
 
-<section class="case-study">
-        <section id="case-study" class="card reveal" aria-labelledby="case-study-title">
-  <div class="card case-title-card">
-    <h2>Problem‑Solving Case Study: Automated GitHub‑Powered Project Feed</h2>
-  </div>
-
-  <div class="card case-block">
-    <h3>The Problem</h3>
-    <p>My digital CV originally required manual updates every time I created, renamed, or improved a project. This slowed iteration, created inconsistencies, and made the CV feel static despite ongoing work.</p>
-  </div>
-
-  <div class="card case-block">
-    <h3>The Approach</h3>
-    <p>Built a modular system that discovers repositories via the GitHub API, selects and sorts projects by recency and relevance, and lists their names in a compact Quick Links panel on my CV; each link opens the repository on GitHub.</p>
-  </div>
-
- <div class="card case-block" role="region" aria-labelledby="solution-heading">
-  <h3 id="solution-heading">The Solution</h3>
-  <ul>
-    <li>Fetched repository data from the GitHub API.</li>
-    <li>Filtered out forks and non‑portfolio repositories.</li>
-    <li>Sorted projects by recency and relevance.</li>
-    <li>Injected project names into the Software Projects list while preserving the design system.</li>
-    <li>Isolated selection logic in a single file for maintainability.</li>
-  </ul>
-</div>
-
- <div class="case-block" role="region" aria-labelledby="software-projects-heading">
-  <ul id="quick-links" class="quick-links-list">
-    <!-- Injected items: <li><a href="https://github.com/owner/repo" target="_blank" rel="noopener noreferrer">Repo Name</a></li> -->
-  </ul>
-</div>
-
-  <div class="card case-block" role="region" aria-labelledby="impact-heading">
-  <h3 id="impact-heading">Impact</h3>
-  <p>My CV now updates automatically, requires zero manual maintenance, and always reflects my most recent engineering work.</p>
-  <p>It demonstrates my ability to identify inefficiencies, design a modular system around them, and deliver a clean, reliable automation solution.</p>
-</div>
-
-  <div class="card case-code-block small">
-
-  <h3>Code Used in This Project (projects.js)</h3>
-
-  <pre><code>
-
-// projects.js — Auto-load GitHub repositories into the CV
-
-document.addEventListener("DOMContentLoaded", () => {
-  const list = document.getElementById("projects-list");
-  if (!list) return;
-
-  const username = "TCD978";
-  const apiURL = `https://api.github.com/users/${username}/repos?sort=updated`;
-
-  async function loadRepos() {
-    try {
-      const res = await fetch(apiURL);
-
-      if (!res.ok) {
-        list.innerHTML = `<li class="error">Unable to load projects.</li>`;
-        return;
-      }
-
-      const repos = await res.json();
-
-      // Filter out forks
-      const filtered = repos.filter(repo => !repo.fork);
-
-      if (filtered.length === 0) {
-        list.innerHTML = `<li>No public projects found.</li>`;
-        return;
-      }
-
-      // Clear loading text
-      list.innerHTML = "";
-
-      // Build list items
-      filtered.forEach(repo => {
-        const li = document.createElement("li");
-        li.className = "project-item";
-
-        const link = document.createElement("a");
-        link.href = repo.html_url;
-        link.target = "_blank";
-        link.rel = "noopener";
-        link.textContent = repo.name;
-
-        li.appendChild(link);
-
-        // Optional: add description if available
-        if (repo.description) {
-          const desc = document.createElement("p");
-          desc.className = "project-desc";
-          desc.textContent = repo.description;
-          li.appendChild(desc);
-        }
-
-        list.appendChild(li);
-      });
-
-    } catch (err) {
-      console.error("GitHub fetch error:", err);
-      list.innerHTML = `<li class="error">Network error loading projects.</li>`;
-    }
-  }
-
-  loadRepos();
-});
-
-  </code></pre>
-</div>
-
-
-</section>
-
-        
-        <!-- CONTACT -->
+<section id="case-study" class="card" aria-labelledby="case-study-title"><p class="eyebrow">Project case study</p><h2 id="case-study-title">GitHub-powered project feed</h2><p>I wanted the project list on this CV to reflect my latest public work without editing the page every time a repository changed.</p><h3>How it works</h3><p>The JavaScript fetches repositories from the GitHub API in order of their latest update, filters out forks, and displays each repository’s name, link, and description. It also shows a message if the request fails or no projects are available.</p><p>This keeps the repository list current when the page loads. The rest of my CV is maintained separately.</p><a href="https://github.com/TCD978/ThomasDohertyCV/blob/main/projects.js">Read the project-feed code on GitHub ↗</a></section>
+<!-- CONTACT -->
         <section id="contact" class="card reveal" aria-labelledby="contact-title">
           <h2 id="contact-title">Contact Me</h2>
 
@@ -448,9 +259,8 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           </form>
         </section>
-      </main>
-
-      <!-- FOOTER -->
+      </div>
+<!-- FOOTER -->
       <footer class="card reveal" role="contentinfo" aria-label="Footer">
         <p>&copy; 2026 Thomas Doherty</p>
         <p><a href="#top">Back to top</a></p>
