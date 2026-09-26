@@ -331,3 +331,10 @@ RESPONSIVE — FULL WIDTH MOBILE
     overflow-y: auto;
   }
 }
+
+
+/* Refreshed visual theme */
+body{background:radial-gradient(circle at 15% 10%,rgba(0,255,157,.18),transparent 32%),radial-gradient(circle at 85% 85%,rgba(74,107,255,.22),transparent 35%),linear-gradient(135deg,#07111f 0%,#10233d 48%,#07111f 100%);background-attachment:fixed;background-size:auto;}
+.page-wrap{background:rgba(5,13,25,.34);border:1px solid rgba(255,255,255,.08);border-radius:24px;backdrop-filter:blur(4px);}
+.card{background:linear-gradient(135deg,rgba(13,31,58,.94),rgba(10,52,63,.86));border-color:rgba(111,220,255,.2);}
+.site-header h1,h2,h3{text-shadow:0 0 18px rgba(0,255,157,.25);}
